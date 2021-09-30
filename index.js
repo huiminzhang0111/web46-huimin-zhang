@@ -24,6 +24,6 @@ server.use('*', (req, res, next) => {
     })
 })
 
-server.listen(PORT || 5000, () => {
-    console.log(`listening on port ${PORT || 5000}`)
+server.listen(PORT, () => {
+    console.log(`listening on port ${PORT}`)
 })
